@@ -21,40 +21,40 @@ Our solution tackles the "Persona-Driven Document Intelligence" challenge by imp
 ### Build the Docker Image
 
 Navigate to the project root directory and run the following command:
-
-```bash
 docker build -t my-1b-solution .
 
-# Project Setup Instructions
+```bash
+
+
+
+### Project Setup Instructions
 
 This repository contains the codebase for our project. Please follow **each step carefully** to set up and run the project successfully.
 
----
 
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
 Open your terminal or CMD and run:
-```bash
+
 git clone https://github.com/avin-1/Hustle_Adobe02.git
 
  *Clone Directory then make virtual environment using this command
-```bash
+
 python -m venv venv
 
  then activate venv using
-```bash venv\scripts\activate
+ venv\scripts\activate
 
 then run this command
-```bash
+
 pip install -r requirement.txt
 
  then after wards run
-```bash
+
 python download_model.py
 
 this will create model directory and add model into it after run the python script main.py using
-```bash
 python src/main.py
 
  Note: run main.py from root directory only dont go inside src then run  
