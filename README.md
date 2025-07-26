@@ -1,6 +1,6 @@
 # Adobe Hackathon - Round 1B Submission
 
-## My Approach
+## Our Approach
 
 Our solution tackles the "Persona-Driven Document Intelligence" challenge by implementing a semantic analysis pipeline. The core of our approach is based on the following steps:
 
