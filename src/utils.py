@@ -2,9 +2,11 @@ import fitz  # PyMuPDF
 import json
 import os
 import re
+
 from collections import defaultdict
 from statistics import median, mode, StatisticsError
 from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # --- Configuration (from 1A) ---
 CONFIG = {
@@ -16,23 +18,18 @@ CONFIG = {
     "title_page_limit": 2,
 }
 
-# --- Model Loading (from Step 2) ---
+# --- Model Loading ---
 MODEL_PATH = 'model/all-mpnet-base-v2'
 
 def load_model():
-    """
-    Loads the SentenceTransformer model from the local directory.
-    """
     if not os.path.exists(MODEL_PATH):
         raise FileNotFoundError(f"Model not found at {MODEL_PATH}. Please run the download_model.py script first.")
-    
     print("Loading model from local path...")
     model = SentenceTransformer(MODEL_PATH)
     print("Model loaded successfully.")
     return model
 
-# --- PDF Parsing Helpers (from your 1A code) ---
-# These are your functions, slightly adapted to work within this file.
+# --- PDF Helpers ---
 
 def get_document_structure(pdf_path):
     doc = fitz.open(pdf_path)
@@ -121,72 +118,48 @@ def get_heading_score(line, block, body_text_size, config):
     spans = line['spans']
     if not spans: return -10
 
-    # --- MORE AGGRESSIVE FILTERING ---
-    # 1. Reject if it's too long, ends with punctuation, or looks like a URL.
     if len(text.split()) > 15 or text.endswith(('.', ',', ':', '?', ';')) or re.search(r'https?://\S+|www\.\S+', text):
         return -10
-
-    # 2. Reject if it starts with a list marker or other non-heading characters.
     if re.match(r'^\s*•|^\s*[-–—]|`|^\d+\.$', text.strip()):
         return -10
-
-    # 3. Reject if it's not capitalized like a title (a strong heuristic).
     words = text.split()
-    if len(words) > 3: # Avoid penalizing short, all-caps headings
-        # Count words starting with an uppercase letter
+    if len(words) > 3:
         capitalized_words = sum(1 for word in words if word[0].isupper())
-        # If less than half the words are capitalized, it's likely a sentence.
         if (capitalized_words / len(words)) < 0.5:
             return -10
-    # --- END OF FILTERING ---
 
     font_sizes = {round(s['size']) for s in spans}
     if len(font_sizes) > 1: return -10
 
     score = 0.0
     line_size = font_sizes.pop()
-    # A more reliable way to check for bold text
     is_bold = any('bold' in s['font'].lower() for s in spans)
 
-    # --- ADJUSTED SCORING ---
-    # Must be larger than body text
     if line_size > body_text_size:
         score += (line_size - body_text_size) * 2.5
     else:
-        return -10 # Penalize heavily if smaller than or same size as body text
+        return -10
 
     if is_bold:
         score += 2.0
-
-    # A very strong indicator of a heading is that it's the only line in its block
     if len(block['lines']) == 1:
         score += 3.5
-
-    if text.isupper() and len(words) < 5: # All caps is good for short headings
+    if text.isupper() and len(words) < 5:
         score += 1.5
-    elif text.istitle(): # Title case is also a good sign
+    elif text.istitle():
         score += 1.5
-
     if len(text.split()) < 10:
         score += 1.0
-
-    # Penalize if the line looks more like a page number or a list item
     if sum(c.isdigit() for c in text) > len(text) / 2:
         score -= 5.0
 
     return score
 
-# --- New Main Function for 1B ---
-
 def extract_sections(pdf_path):
-    """
-    Processes a PDF to extract its title and structured sections (heading + content).
-    """
     doc_structure = get_document_structure(pdf_path)
     if not any(page['blocks'] for page in doc_structure):
         return "No Text Found", []
 
-    # --- Step 1: Identify Title and Headers/Footers ---
     ignored_line_ids = identify_and_filter_content(doc_structure, CONFIG)
     title_text, title_line_ids = find_title_by_layout(doc_structure, ignored_line_ids, CONFIG)
     ignored_line_ids.update(title_line_ids)
@@ -198,7 +171,6 @@ def extract_sections(pdf_path):
     ]
     body_text_size = median(font_sizes) if font_sizes else 10
 
-    # --- Step 2: Find all heading candidates and their styles ---
     heading_candidates = []
     for page in doc_structure:
         for block in page['blocks']:
@@ -218,8 +190,7 @@ def extract_sections(pdf_path):
                         heading_candidates.append(heading_info)
                     except StatisticsError:
                         continue
-    
-    # --- Step 3: Rank styles and assign H-levels (your 1A logic) ---
+
     style_properties = defaultdict(list)
     for h in heading_candidates:
         style_properties[h['style_key']].append(h['bbox'][0])
@@ -230,12 +201,10 @@ def extract_sections(pdf_path):
     )
     style_to_level = {style["style_key"]: f"H{min(i + 1, 3)}" for i, style in enumerate(ranked_styles[:3])}
 
-    # --- Step 4: Create a final map of headings with assigned levels ---
     final_headings = {}
     for h in heading_candidates:
         level = style_to_level.get(h['style_key'])
         if level:
-            # Use a unique identifier for each heading
             heading_id = (h['page'], tuple(map(round, h['bbox'])))
             final_headings[heading_id] = {
                 "text": h["text"],
@@ -243,7 +212,6 @@ def extract_sections(pdf_path):
                 "level": level,
             }
 
-    # --- Step 5: Aggregate content between headings ---
     sections = []
     current_section_content = []
     current_section_info = None
@@ -252,29 +220,24 @@ def extract_sections(pdf_path):
         for block in page['blocks']:
             for line in block['lines']:
                 line_id = (page['page_num'], tuple(map(round, line['bbox'])))
-                
+
                 if line_id in ignored_line_ids and line_id not in final_headings:
                     continue
-                
+
                 if line_id in final_headings:
-                    # If we find a new heading, save the previous section first
                     if current_section_info:
                         sections.append({
                             **current_section_info,
                             "content": " ".join(current_section_content).strip()
                         })
-                    
-                    # Start a new section
                     current_section_info = {
                         "doc_name": os.path.basename(pdf_path),
                         **final_headings[line_id]
                     }
                     current_section_content = []
                 elif current_section_info:
-                    # If we are inside a section, accumulate its content
                     current_section_content.append(line['text'])
 
-    # Append the very last section after the loop
     if current_section_info:
         sections.append({
             **current_section_info,
@@ -283,5 +246,36 @@ def extract_sections(pdf_path):
 
     return title_text, sections
 
+# --- Outline Loaders ---
 
-from sklearn.feature_extraction.text import TfidfVectorizer
+def load_combined_outlines(path="output/combined_outlines.json"):
+    if not os.path.exists(path):
+        print(f"⚠️ Outline file not found at {path}")
+        return {}
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"❌ Failed to parse outline JSON: {e}")
+        return {}
+
+def load_outline_if_available(pdf_path, outline_dir="output"):
+    """
+    Loads outline entries for a given PDF from its corresponding outline JSON file if available.
+    """
+    filename = os.path.basename(pdf_path)
+    json_name = filename.lower().replace(" ", "_").replace(".pdf", "_outline.json")
+    outline_path = os.path.join(outline_dir, json_name)
+
+    if not os.path.exists(outline_path):
+        print(f"⚠️ No outline found for: {filename}")
+        return []
+
+    try:
+        with open(outline_path, "r", encoding="utf-8") as f:
+            outline_data = json.load(f)
+            return outline_data
+    except Exception as e:
+        print(f"⚠️ Error reading outline for {filename}: {e}")
+        return []

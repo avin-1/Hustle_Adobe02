@@ -1,0 +1,1445 @@
+{
+    "Learn Acrobat - Create And Convert 1": [
+        {
+            "level": 1,
+            "title": "Convert a file to PDF using Acrobat menu commands",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "Drag-and-drop to create PDFs",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Convert clipboard content to PDF",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Create a blank PDF",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Create multiple PDFs from multiple files",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "About Acrobat PDFMaker",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Using Create PDF cloud service for PDF conversion",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Convert a file to PDF using PDFMaker",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Show or activate PDFMaker in Microsoft Office and Lotus Notes",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Convert a file to PDF",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF and share the link for viewing or commenting",
+            "page_number": 15
+        },
+        {
+            "level": 2,
+            "title": "Applicable to Microsoft Word, Excel, and PowerPoint",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF and share via Outlook",
+            "page_number": 16
+        },
+        {
+            "level": 2,
+            "title": "Applicable to Microsoft Word, Excel, and PowerPoint",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF as an email attachment",
+            "page_number": 18
+        },
+        {
+            "level": 1,
+            "title": "Attach a file as PDF (Outlook)",
+            "page_number": 18
+        },
+        {
+            "level": 1,
+            "title": "Convert files to a secured PDF and attach it to an email message (Outlook)",
+            "page_number": 18
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF and send it for review",
+            "page_number": 19
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF and run an action",
+            "page_number": 19
+        },
+        {
+            "level": 1,
+            "title": "View PDFMaker conversion settings",
+            "page_number": 20
+        },
+        {
+            "level": 1,
+            "title": "Settings tab of the Adobe PDFMaker preferences",
+            "page_number": 20
+        },
+        {
+            "level": 1,
+            "title": "Security tab of the Adobe PDFMaker preferences",
+            "page_number": 21
+        },
+        {
+            "level": 1,
+            "title": "Convert Microsoft Word, PowerPoint, and Excel files to PDF",
+            "page_number": 22
+        },
+        {
+            "level": 1,
+            "title": "Convert Excel files to PDF",
+            "page_number": 22
+        },
+        {
+            "level": 1,
+            "title": "Convert Word and PowerPoint files to PDF",
+            "page_number": 22
+        },
+        {
+            "level": 1,
+            "title": "Convert email messages to PDFs",
+            "page_number": 23
+        },
+        {
+            "level": 1,
+            "title": "Specify whether email messages become merged PDFs or PDF Portfolios",
+            "page_number": 23
+        },
+        {
+            "level": 1,
+            "title": "Convert an open email message to PDF (Outlook)",
+            "page_number": 23
+        },
+        {
+            "level": 1,
+            "title": "Convert email messages to a new PDF",
+            "page_number": 24
+        },
+        {
+            "level": 1,
+            "title": "Add email messages or folders to an existing PDF",
+            "page_number": 24
+        },
+        {
+            "level": 1,
+            "title": "Convert email folders to a new PDF",
+            "page_number": 25
+        },
+        {
+            "level": 1,
+            "title": "Set up automatic email archiving",
+            "page_number": 26
+        },
+        {
+            "level": 1,
+            "title": "Create PDFs from Word mail merges",
+            "page_number": 27
+        },
+        {
+            "level": 1,
+            "title": "Email options for PDF mail merges",
+            "page_number": 28
+        },
+        {
+            "level": 1,
+            "title": "Convert Visio files to PDF (Acrobat Pro)",
+            "page_number": 29
+        },
+        {
+            "level": 1,
+            "title": "Convert Visio files",
+            "page_number": 29
+        }
+    ],
+    "Learn Acrobat - Create And Convert 2": [
+        {
+            "level": 1,
+            "title": "Select Visio layers to convert (Acrobat Pro)",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Convert AutoCAD files to PDF (Acrobat Pro for Windows)",
+            "page_number": 3
+        },
+        {
+            "level": 1,
+            "title": "Convert AutoCAD files when AutoCAD is installed",
+            "page_number": 3
+        },
+        {
+            "level": 1,
+            "title": "Select AutoCAD layers to convert",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "Convert AutoCAD files in batches",
+            "page_number": 5
+        },
+        {
+            "level": 1,
+            "title": "Application-specific PDFMaker settings",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Settings tab options available from within most applications",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Excel-specific options on the Settings tab",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "PowerPoint-specific options on the Settings tab",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "Email-specific options on the Settings tab",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "AutoCAD-specific options on the Settings tab (Acrobat Pro)",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Visio-specific options on the Settings tab (Acrobat Pro)",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Word tab settings (Microsoft Word)",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Bookmarks tab settings (Microsoft Word)",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Create PDFs by printing to file",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF using the Print command (Windows)",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Create a PDF using the Print command (Mac OS X)",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Adobe PDF printing preferences (Windows)",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Set Adobe PDF printer properties (Windows)",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Set Adobe PDF printer properties",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Reassign the port that the Adobe PDF printer uses",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Delete a folder and reassign the Adobe PDF printer to the default port",
+            "page_number": 17
+        }
+    ],
+    "Learn Acrobat - Edit 1": [
+        {
+            "level": 1,
+            "title": "About editing text and images",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Add images in a PDF",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Modify images in a PDF",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Delete images from a PDF",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Add Objects to PDF",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Edit an image outside Acrobat",
+            "page_number": 16
+        }
+    ],
+    "Learn Acrobat - Edit 2": [
+        {
+            "level": 1,
+            "title": "Export PDF images to another format",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Rotate pages in a PDF",
+            "page_number": 3
+        },
+        {
+            "level": 1,
+            "title": "Extract random pages from a PDF",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "Split PDFs into multiple documents",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Split multiple PDFs",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Move or copy pages in a PDF",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Move or copy a page",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Copy a page between two PDFs",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Delete or replace pages in a PDF",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Delete multiple pages in a PDF",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Delete a page in a PDF",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Replace pages in a PDF",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Replace pages between multiple PDFs",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Renumber pages in a PDF",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Recognize text on scanned PDF",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Edit a scanned document",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Enhance scanned file or camera images for clear PDFs",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "Enhance camera image",
+            "page_number": 16
+        }
+    ],
+    "Learn Acrobat - Export 1": [
+        {
+            "level": 1,
+            "title": "Recover the last saved version",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "About the Autosave feature",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to DOC",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "File format options for PDF export in Acrobat",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Adobe PDF options",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Image conversion settings",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "JPEG and JPEG 2000 conversion settings",
+            "page_number": 8
+        },
+        {
+            "level": 2,
+            "title": "File settings",
+            "page_number": 8
+        },
+        {
+            "level": 2,
+            "title": "Color management",
+            "page_number": 9
+        },
+        {
+            "level": 2,
+            "title": "Conversion",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "PDF to PNG conversion settings",
+            "page_number": 9
+        },
+        {
+            "level": 2,
+            "title": "File settings",
+            "page_number": 10
+        },
+        {
+            "level": 2,
+            "title": "Color management",
+            "page_number": 10
+        },
+        {
+            "level": 2,
+            "title": "Conversion",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "PDF to TIFF conversion settings",
+            "page_number": 11
+        },
+        {
+            "level": 2,
+            "title": "File settings",
+            "page_number": 11
+        },
+        {
+            "level": 2,
+            "title": "Color management",
+            "page_number": 11
+        },
+        {
+            "level": 2,
+            "title": "Conversion",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "PDF to Microsoft Word conversion settings",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to RTF",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "PDF to RTF conversion settings",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to HTML Web Page",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "PDF to HTML conversion settings",
+            "page_number": 15
+        },
+        {
+            "level": 2,
+            "title": "File and Navigation Pane Settings",
+            "page_number": 15
+        },
+        {
+            "level": 2,
+            "title": "Content settings",
+            "page_number": 16
+        },
+        {
+            "level": 2,
+            "title": "Text recognition settings",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to Microsoft Excel",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to Microsoft Excel (XLSX)",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to XML",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "PDF to Microsoft Excel (XLSX or XML) conversion settings",
+            "page_number": 18
+        },
+        {
+            "level": 2,
+            "title": "Text recognition settings",
+            "page_number": 18
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to PostScript or Encapsulated PostScript (EPS)",
+            "page_number": 20
+        },
+        {
+            "level": 1,
+            "title": "PDF to PS and EPS conversion settings",
+            "page_number": 21
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to Text and XML 1.0",
+            "page_number": 22
+        },
+        {
+            "level": 2,
+            "title": "Convert PDF to XML 1.0",
+            "page_number": 22
+        },
+        {
+            "level": 2,
+            "title": "Convert PDF to text",
+            "page_number": 22
+        },
+        {
+            "level": 1,
+            "title": "PDF to Text and XML 1.0 conversion settings",
+            "page_number": 22
+        },
+        {
+            "level": 2,
+            "title": "Output file settings",
+            "page_number": 22
+        },
+        {
+            "level": 2,
+            "title": "Image file settings",
+            "page_number": 23
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to JPEG or JPEG 2000",
+            "page_number": 24
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to TIFF",
+            "page_number": 24
+        },
+        {
+            "level": 1,
+            "title": "Convert PDF to PNG",
+            "page_number": 25
+        },
+        {
+            "level": 1,
+            "title": "Export selections from a PDF to another format",
+            "page_number": 27
+        },
+        {
+            "level": 1,
+            "title": "Select and copy text and images",
+            "page_number": 28
+        },
+        {
+            "level": 1,
+            "title": "Select text and images",
+            "page_number": 28
+        },
+        {
+            "level": 1,
+            "title": "Select a column of text",
+            "page_number": 28
+        },
+        {
+            "level": 1,
+            "title": "Select all the text on a page",
+            "page_number": 29
+        },
+        {
+            "level": 1,
+            "title": "Copy selected text",
+            "page_number": 29
+        },
+        {
+            "level": 1,
+            "title": "Paste copied text and images",
+            "page_number": 29
+        },
+        {
+            "level": 1,
+            "title": "Convert selected content to other formats",
+            "page_number": 30
+        }
+    ],
+    "Learn Acrobat - Export 2": [
+        {
+            "level": 1,
+            "title": "Copy images",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Export objects to separate PDF",
+            "page_number": 2
+        },
+        {
+            "level": 1,
+            "title": "Take a snapshot of a page",
+            "page_number": 3
+        }
+    ],
+    "Learn Acrobat - Fill And Sign": [
+        {
+            "level": 1,
+            "title": "Fill and Sign PDF Forms",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types of PDF forms",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Fill and sign PDF forms",
+            "page_number": 2
+        },
+        {
+            "level": 2,
+            "title": "To fill text fields:",
+            "page_number": 2
+        },
+        {
+            "level": 2,
+            "title": "To fill radio option fields:",
+            "page_number": 5
+        },
+        {
+            "level": 2,
+            "title": "To add signature and initials:",
+            "page_number": 5
+        },
+        {
+            "level": 1,
+            "title": "Fill in PDF Forms",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Is the form fillable?",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Fill in interactive forms",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Auto-Complete forms (interactive forms only)",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Enable the Auto-Complete option",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Delete an entry from the Auto-Complete memory",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Change flat forms to fillable (Acrobat Pro)",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Save forms",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Print forms",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Clear unsaved form entries",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Sign an agreement",
+            "page_number": 16
+        },
+        {
+            "level": 2,
+            "title": "Sign using Acrobat/Reader desktop application",
+            "page_number": 16
+        },
+        {
+            "level": 2,
+            "title": "Sign using the email link",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Remove your signature or initials",
+            "page_number": 18
+        }
+    ],
+    "Learn Acrobat - Generative Ai 1": [
+        {
+            "level": 1,
+            "title": "Attributions",
+            "page_number": 3
+        },
+        {
+            "level": 1,
+            "title": "Feedback",
+            "page_number": 4
+        },
+        {
+            "level": 2,
+            "title": "Will adobe ever look at your content while you’re using generative ai in acrobat and acrobat reader?",
+            "page_number": 4
+        },
+        {
+            "level": 2,
+            "title": "What steps do we take to protect your content when you share it with us as part of providing feedback?",
+            "page_number": 5
+        },
+        {
+            "level": 2,
+            "title": "If you flag content as being harmful, illegal, or offensive or if you contribute content as feedback, how long do we retain that content?",
+            "page_number": 5
+        },
+        {
+            "level": 2,
+            "title": "Do acrobat’s generative ai features process my documents when i launch the application or open a file in the application?",
+            "page_number": 5
+        },
+        {
+            "level": 2,
+            "title": "If I’m signed into my adobe account, does acrobat’s generative ai features automatically start processing my documents when I launch the application, or open a file in the application?",
+            "page_number": 5
+        },
+        {
+            "level": 2,
+            "title": "What LLMS are we leveraging to power generative ai in acrobat?",
+            "page_number": 6
+        },
+        {
+            "level": 2,
+            "title": "Does adobe concurrently train any large language models (“LLMS”) with your content while you're using generative ai features in acrobat?",
+            "page_number": 6
+        },
+        {
+            "level": 2,
+            "title": "What is chat history?",
+            "page_number": 6
+        },
+        {
+            "level": 2,
+            "title": "How can I see my chat history?",
+            "page_number": 6
+        },
+        {
+            "level": 2,
+            "title": "Where is my chat history stored?",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "Can I export my chat history in AI Assistant?",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "How can I clear my chat history in AI Assistant?",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "Can I disable chat history in AI Assistant?",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "Can i share my chat history with others?",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "What happens if I disconnect acrobat from other third-party cloud storage services such as google drive or OneDrive?",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "Streaming summaries for long PDFs",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Acrobat",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Prerequisites",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "View meeting details in Acrobat",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Access Zoom meeting transcripts in Acrobat",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Manually open meeting transcripts in Acrobat",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "Use generative AI features in Acrobat Reader",
+            "page_number": 18
+        },
+        {
+            "level": 1,
+            "title": "Like or dislike the response",
+            "page_number": 20
+        },
+        {
+            "level": 1,
+            "title": "Report inappropriate content",
+            "page_number": 21
+        },
+        {
+            "level": 1,
+            "title": "Rate your experience with the generative AI features",
+            "page_number": 23
+        },
+        {
+            "level": 1,
+            "title": "Using AI Assistant in Acrobat mobile",
+            "page_number": 26
+        },
+        {
+            "level": 1,
+            "title": "Provide feedback for generated answers",
+            "page_number": 30
+        },
+        {
+            "level": 1,
+            "title": "Turn off AI Assistant",
+            "page_number": 32
+        }
+    ],
+    "Learn Acrobat - Generative Ai 2": [
+        {
+            "level": 1,
+            "title": "Persistent chat history",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Clear chat history",
+            "page_number": 2
+        },
+        {
+            "level": 1,
+            "title": "Copy chat history",
+            "page_number": 3
+        },
+        {
+            "level": 1,
+            "title": "Read-aloud generated responses",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "Change the playback speed",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Custom voice for read-aloud feature",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "Multiple document support in AI Assistant",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Remove files from a collection",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Request access in Acrobat",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Request access from the Admin Console (Teams hybrid admins)",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Review the status of your request",
+            "page_number": 15
+        },
+        {
+            "level": 1,
+            "title": "Common questions",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "I have multiple profiles associated with my Adobe account. How do I select which profile to send a request from?",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "What if I can’t find the option to request access to AI Assistant for Acrobat?",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "What notifications do I receive if a request is approved, declined, or pending?",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "What happens if my request is declined?",
+            "page_number": 16
+        },
+        {
+            "level": 1,
+            "title": "Prerequisites",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "License deployment",
+            "page_number": 18
+        }
+    ],
+    "Learn Acrobat - Request E-Signatures 1": [
+        {
+            "level": 1,
+            "title": "Signer's experience",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Steps to send in bulk",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Manage your bulk sends",
+            "page_number": 17
+        },
+        {
+            "level": 1,
+            "title": "Why use certificate signatures?",
+            "page_number": 20
+        },
+        {
+            "level": 1,
+            "title": "What can I do with certificate IDs?",
+            "page_number": 20
+        },
+        {
+            "level": 1,
+            "title": "What if my organization isn’t prepared to set up certificate-based signatures?",
+            "page_number": 21
+        },
+        {
+            "level": 1,
+            "title": "Resources",
+            "page_number": 21
+        },
+        {
+            "level": 1,
+            "title": "Steps to add a certificate-based signature to a PDF",
+            "page_number": 22
+        },
+        {
+            "level": 1,
+            "title": "Certifying and signing documents",
+            "page_number": 23
+        },
+        {
+            "level": 1,
+            "title": "Setting up certificate-based signatures",
+            "page_number": 24
+        },
+        {
+            "level": 1,
+            "title": "Set signing preferences",
+            "page_number": 25
+        },
+        {
+            "level": 1,
+            "title": "Customizing signature workflows using seed values",
+            "page_number": 25
+        },
+        {
+            "level": 1,
+            "title": "Create the appearance of a certificate-based signature",
+            "page_number": 25
+        },
+        {
+            "level": 1,
+            "title": "Set up a roaming ID account",
+            "page_number": 26
+        },
+        {
+            "level": 1,
+            "title": "PKCS#12 modules and tokens",
+            "page_number": 27
+        },
+        {
+            "level": 1,
+            "title": "Store certificates on directory servers",
+            "page_number": 27
+        },
+        {
+            "level": 1,
+            "title": "Import directory server settings (Windows only)",
+            "page_number": 27
+        },
+        {
+            "level": 1,
+            "title": "Export directory server settings (Windows only)",
+            "page_number": 28
+        },
+        {
+            "level": 1,
+            "title": "Add a timestamp to certificate-based signatures",
+            "page_number": 29
+        },
+        {
+            "level": 1,
+            "title": "Set a timestamp server as the default",
+            "page_number": 30
+        }
+    ],
+    "Learn Acrobat - Request E-Signatures 2": [
+        {
+            "level": 1,
+            "title": "Adobe LiveCycle Rights Management (ALCRM) servers",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "What is a digital signature?",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Why validate a digital signature?",
+            "page_number": 1
+        },
+        {
+            "level": 1,
+            "title": "Set preferences for validating digital signatures",
+            "page_number": 2
+        },
+        {
+            "level": 1,
+            "title": "Set the trust level of a certificate",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "Sign in preview mode for document integrity",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Certify a PDF",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Timestamp a document",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Validate a digital signature",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Validate all digital signatures",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "View previous versions of a digitally signed document",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Compare versions of a signed document",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Trust a signer’s certificate",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Sign component PDFs and PDF Portfolios",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Digitally sign on attachments to component PDFs",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "View signed and certified PDF Portfolios",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "XML data signatures",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Establish long-term signature validation",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Add verification information at signing",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Add verification information after signing",
+            "page_number": 11
+        }
+    ],
+    "Learn Acrobat - Share 1": [
+        {
+            "level": 1,
+            "title": "Highlight, strikethrough, or underline text comment",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "Using Select Text Tool",
+            "page_number": 7
+        },
+        {
+            "level": 2,
+            "title": "Using Markup Tool",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "Change the color of the markup",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Delete The Markup",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "To delete the markup, select the markup and then select delete",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Add a comment to the markup",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Replace text",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Insert text",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Export text edits",
+            "page_number": 10
+        },
+        {
+            "level": 2,
+            "title": "Send an anonymous or public link in an email",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Reviewer experience",
+            "page_number": 11
+        },
+        {
+            "level": 2,
+            "title": "Send personalized invitations for commenting",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Initiate a review using @mention in a PDF",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Reviewer experience",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Initiate SharePoint-based shared review using Acrobat",
+            "page_number": 14
+        }
+    ],
+    "Learn Acrobat - Share 2": [
+        {
+            "level": 1,
+            "title": "Annotations and drawing markup tools overview",
+            "page_number": 2
+        },
+        {
+            "level": 1,
+            "title": "Show annotations and drawing markup tools",
+            "page_number": 2
+        },
+        {
+            "level": 1,
+            "title": "Select an annotation or drawing markup tool",
+            "page_number": 3
+        },
+        {
+            "level": 1,
+            "title": "Keep an annotation tool selected",
+            "page_number": 4
+        },
+        {
+            "level": 1,
+            "title": "Add a comment",
+            "page_number": 5
+        },
+        {
+            "level": 1,
+            "title": "Steps to add a comment",
+            "page_number": 5
+        },
+        {
+            "level": 1,
+            "title": "Edit a comment",
+            "page_number": 5
+        },
+        {
+            "level": 1,
+            "title": "Change font size of annotation comments",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Copy partial text in a comment",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Delete a comment",
+            "page_number": 6
+        },
+        {
+            "level": 1,
+            "title": "Add a text comment",
+            "page_number": 7
+        },
+        {
+            "level": 1,
+            "title": "Add reactions to comments on shared files",
+            "page_number": 8
+        },
+        {
+            "level": 1,
+            "title": "Add an arrow, or shape",
+            "page_number": 9
+        },
+        {
+            "level": 1,
+            "title": "Add a line",
+            "page_number": 10
+        },
+        {
+            "level": 1,
+            "title": "Group and ungroup markups",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Group markups",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Ungroup markups",
+            "page_number": 11
+        },
+        {
+            "level": 1,
+            "title": "Add comments in a text box or callout",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Add a comment in text box",
+            "page_number": 12
+        },
+        {
+            "level": 2,
+            "title": "Set or change properties for the text box",
+            "page_number": 12
+        },
+        {
+            "level": 1,
+            "title": "Add a comment in callout",
+            "page_number": 13
+        },
+        {
+            "level": 1,
+            "title": "Add comments in a file attachment",
+            "page_number": 14
+        },
+        {
+            "level": 1,
+            "title": "Commenting preferences",
+            "page_number": 15
+        },
+        {
+            "level": 2,
+            "title": "Viewing comments",
+            "page_number": 15
+        }
+    ],
+    "Test Your Acrobat Exporting Skills": [],
+    "The Ultimate Pdf Sharing Checklist": []
+}

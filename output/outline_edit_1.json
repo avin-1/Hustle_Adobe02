@@ -1,0 +1,32 @@
+[
+    {
+        "level": 1,
+        "title": "About editing text and images",
+        "page_number": 14
+    },
+    {
+        "level": 1,
+        "title": "Add images in a PDF",
+        "page_number": 14
+    },
+    {
+        "level": 1,
+        "title": "Modify images in a PDF",
+        "page_number": 15
+    },
+    {
+        "level": 1,
+        "title": "Delete images from a PDF",
+        "page_number": 16
+    },
+    {
+        "level": 1,
+        "title": "Add Objects to PDF",
+        "page_number": 16
+    },
+    {
+        "level": 1,
+        "title": "Edit an image outside Acrobat",
+        "page_number": 17
+    }
+]
