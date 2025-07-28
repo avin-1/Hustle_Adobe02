@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-28T17:58:39.553700"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill and Sign PDF Forms",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Print forms",
+            "importance_rank": 2,
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "Create PDFs from Word mail merges",
+            "importance_rank": 3,
+            "page_number": 27
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill in PDF Forms",
+            "importance_rank": 4,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Save forms",
+            "importance_rank": 5,
+            "page_number": 13
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types of PDF forms • Interactive forms : These contain fields that you can select and fill in. • Flat forms : These do  not have interactive fields. It could be a paper form or PDF that hasn’t been optimized for form filling. The Fill & Sign tool automatically detects the form fields like text fields, comb fields, checkboxes, and radio buttons. You can manually add text and other symbols anywhere on the form using the Fill & Sign tool if required. You can complete the forms by entering information and adding your signatures. Acrobat also allows you to send your completed forms to others and securely save them in Adobe cloud storage. Fill and sign PDF forms To complete and sign PDF forms, open the form in Acrobat and then select  E-Sign  from the global bar. Alternatively, you can select  All tools  >   Fill & Sign . It displays the Fill & Sign tools in the left pane. You can now fill in the form fields and sign the form using the sign tools described in the following topics. To fill text fields: 1.   From the left panel, select Fill in form fields , and then select the field where you want to add text. It displays a text field along with a toolbar. 2.   Select the text field again and enter your text. 3.   To reposition the text box to align it with the text field, select the textbox and hover over it. Once you see a plus icon with arrows, move the textbox to the desired position. 4.   To edit the text, select the text box. Once you see the cursor and keypad, edit the text and then click elsewhere to enter. 5.   To change the text size, select A or A as required. Note: Resize the first annotation you place to fit the check box or radio button in the document, and the next annotations you add will be of the same size and will fit the rest of the box/circle fields. 6.   To change the text color, select the color from the quick toolbar and select a desired color from the color palette. The default color for signatures is black. To change the color of signatures, you must deselect the  Keep signatures black  checkbox. 7.   To change the text style from normal to combed, from the textbox menu, select ellipsis (   )>  Character spacing . It changes the text style from normal to combed. To increase or decrease the spacing, you can select the blue arrow icon and then drag it as desired. 8.   Once done, select the next field space and then enter your text in the text box. Use the formatting options as desired. Repeat the step to fill all the required fields in the form. To fill radio option fields: 1.   Hover over the field with the radio option. It automatically displays the default checkmark or the selected radio field symbol. 2.   Select the radio option field to enter the symbol. 3.   To change the symbol, select the field again, and then from the menu, ellipsis (   ) and then select another symbol. It marks the field with the selected symbol. To add signature and initials: 1.   Create your signature and initials if not already done. To do so: 1.   From the Quick action toolbar, select  Add your signature or initials 2.   To add a signature, select  Add signature . In the dialog that appears, type or draw your signature and then select  Done . 3.   To add your initials, select  Add initials . In the dialog that appears, type or draw your initials and then select  Done . Note:  You may also add an image as your signature or initials. To add an existing image, tap the image icon from the top menu. To take a new picture to be added as your signature, tap the camera icon and follow through with the workflow. 2.   To add a signature: 1.   From the Quick actions toolbar, select Add your signature or initials . Select  Add Signature . 2.   Your signature appears in the field. Note: Once you add a signature or initial to a form and save it, you cannot edit it again. 3.   To adjust the placement of your signature, hover over the signature till you see a plus icon, and then click and move the signature as desired. 4.   To adjust the size of your signature, hover over the blue circle at the corner and then hold and drag it as desired. Caution: Once you add a signature or an initial to a form and save it, you cannot edit it again. 3.   To add your initials: 1.   From the Quick actions toolbar, select Add your signature or initials . Select  Add Initials . Your initials appear in the field. 2.   To adjust the placement of your signature, hover over it until you see a plus icon, and then click and move the signature as desired. 3.   To adjust the size of your signature, hover over the blue circle at the corner and then hold and drag it as desired. Note: If you want to use an image as your signature or initials: • Sign your name in black ink on a clean, blank sheet of white paper. Sign in the middle of the paper so you don't photograph or scan the edges. • Photograph or scan your signature. If you are taking a picture of your signature, make sure that the page is lit and that no shadows fall across the signature. • Transfer the photo or scan to your computer. Acrobat/Reader accepts JPG, JPEG, PNG, GIF, TIFF, TIF, and BMP files. You do not need to crop the image. Acrobat/Reader imports just the signature if the photo or scan is fairly clean.",
+            "page_number": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "1.   Select  Print this file from the upper right. 2.   Choose an appropriate printer in the  Print  dialog box. 3.   In the  Comments And Forms  menu, choose one of the following, and then select  OK : • (Interactive or flat form) To print the form and the typed entries, choose  Document . This option prints text that you’ve typed using the  Add Text  tool. • (Interactive or flat form) To print the form, the typed entries, and any comments on the form, choose  Document And Markups . This option prints text that you’ve typed using the  Add Text  tool. • (Interactive form only) To print only the typed entries and not the form itself, choose  Form Fields Only . Clear unsaved form entries 1.   Choose  Tools  >  Prepare a form . In the  Fields  side panel, choose  Clear Form  from the Options menu    . You can sign a document to attest to its contents or approve the document. This document explains how to sign a document or agreement using Acrobat or Reader desktop application. To sign a PDF document or form, you can type, draw, or insert an image of your handwritten signature. You can also add text, such as your name, company, title, or date. When you save the document, the signature and text become part of the PDF. Note: You can also capture a picture of your signature on mobile using Adobe Acrobat Reader mobile app and save it in Adobe cloud storage so that it's synced and available for use across your desktop and other mobile devices. 1.   Open the PDF document. Select  E-sign  from the global bar. 2.   Create your signature and initials if not already done. To do so: 1.   To add a signature, select Add signature. In the dialog that appears, type, draw, or add an image of your signature and then select Done. 2.   To add your initials, select Add initials. In the dialog that appears, type, draw, or add an image of your initials and then select Done. 3.   Select your signature. 4.   The form fields are detected automatically. Hover the mouse over a field to display a blue box. Click anywhere in the blue box, the cursor will be placed at the right position automatically. Type your text to fill the field. To fill the PDF form with your desired color, from the Quick actions toolbar, select the Color icon and then select a color. By default, the signature color is black. To retain the default color of the signature, make sure the Keep signatures black option is unchecked. 5.   If you've already added your signature or initials, just select it from the Sign options, and then click at the place in the PDF where you want to add your signature. Skip to the next step. If you are signing for the first time, you see the Signature or Initials panel. Below is an example of the Signature panel. 6.   Select  Apply , and then click on the place in the PDF where you want to place the signature or initial. 7.   To move the placed signature or initial, select the field to highlight it and then use the arrow keys. To resize or delete the field, use the options in the field toolbar. Note: If you want to use an image as your signature: • Sign your name in black ink on a clean, blank sheet of white paper. Sign in the middle of the paper so you don't photograph or scan the edges. • Photograph or scan your signature. If you are taking a picture of your signature, make sure that the page is lit and that no shadows fall across the signature. • Transfer the photo or scan to your computer. Acrobat/Reader accepts JPG, JPEG, PNG, GIF, TIFF, TIF, and BMP files. You do not need to crop the image. Acrobat/Reader imports just the signature if the photo or scan is fairly clean.",
+            "page_number": 14
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Mail merges from Word generate documents like form letters—for one common example— that are personalized with information like the names and addresses of the recipients. With Acrobat PDFMaker, you can save steps by using a Word mail merge document and corresponding data file to output mail merges directly to PDF. You can even set up PDFMaker to attach those PDFs to email messages that are generated during the PDF-creation process. Note: For information on setting up files for the Word Mail Merge feature, see Microsoft Office Word Help. 1.   In Microsoft Word, open the template that you have created as the basis of your mail merge, or create the file using the Word Mail Merge toolbar and Mail Merge wizard, as needed. Note:  Do not complete the mail merge in Word. Instead, set up and preview the mail merge as usual, so that you can verify that the merge will work correctly. 2.   Do one of the following: Choose  Acrobat  >  Mail Merge . Click the  Mail Merge To Adobe PDF  button on the Mail Merge toolbar (View > Toolbars > Mail Merge). 3.   In the  Acrobat PDFMaker - Mail Merge  dialog box, select the options you want: To specify which records in the data file will be imported into the merged files, select  All  or  Current , or enter a range of pages by typing in the  From  and  To  boxes. To name the PDF that will be created, type in the  Specify PDF File Name  box. Note:  The PDF will be named using this text plus a series of numbers. For example, if you type  JulyLetter  in the  Specify PDF File Name  box, the mail-merged PDFs might appear as JulyLetter_0000123, JulyLetter_0000124, JulyLetter_0000125, and so forth. 4.   For  Automatically Send Adobe PDF Files By Emai l, do one of the following: To create and save merged PDFs for printing or sending later in email, leave the option deselected, and click  OK . To create merged PDFs and attach each one to an email message to the appropriate recipient, select this check box, and fill in the other Email options. 5.   When the  Browse For Folder  dialog box appears, navigate to the location you want to use and click  OK . Status indicators appear as PDFMaker generates the individual PDFs, 6.   If you selected  Automatically Send Adobe PDF Files By Email , a dialog box appears asking for your email profile. Enter the appropriate information and click  OK . When the job has finished, a message appears, telling you that the process was successful. Email options for PDF mail merges To Use the pop-up menu to select the field or column in the associated data file that contains the email addresses in each individual’s record. Subject Line Type the text that you want to appear in the subject line of each message. Message Type to add or edit text that you want to appear in the body of the email messages.",
+            "page_number": 27
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Is the form fillable? Not all forms are fillable. Sometimes form creators don’t convert their PDFs to interactive  fillable  forms. Or, they intentionally design a form that you can fill in only by hand or with the  Fill & Sign  tool. These non-interactive forms are called  flat  forms. Fill in interactive forms An  interactive  form contains fields that you can select or fill in. 1.   If necessary, select either the  Hand Tool  or the  Select Tool  from the context menu of the page (right-click on the page to open the context menu). The pointer changes to a different icon as you move it over a field. For example, the  Hand tool changes to an I-beam  when you can type text into the form field. Some text fields are dynamic, meaning that they automatically resize to accommodate the amount of data you enter and can span across pages. 2.   Select anywhere in the form to access options, such as radio buttons. Select inside a text field to type. Press Tab to move forward or Shift+Tab to move backward. 3.   When finished, submit the form to either send the data to a server or create an email to send the data. Auto-Complete forms (interactive forms",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "• To save the completed form, choose  Save As  from the hamburger menu ( File  >  Save As  in macOS) and rename the file. • To remove extended Acrobat Reader features, choose  Save A Copy  ( File  >  Save A Copy  in macOS). • To allow Acrobat Reader users to save the data they typed, choose one of the following depending upon your operating system: Windows® :  Save As Other  >  Acrobat Reader Extended PDF  >  Enable More Tools (Includes Form Fill-in & Save) macOS :  File  >  Save As Other  >  Acrobat Reader Extended PDF  >  Enable More Tools (Includes Form Fill-in & Save) .",
+            "page_number": 13
+        }
+    ]
+}
