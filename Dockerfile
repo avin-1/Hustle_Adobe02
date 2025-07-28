@@ -9,7 +9,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy model and source code
-COPY model/ ./model/
 COPY src/ ./src/
 COPY download_model.py .
 
