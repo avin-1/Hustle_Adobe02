@@ -16,11 +16,16 @@ Our solution tackles the "Persona-Driven Document Intelligence" challenge by imp
 -   **`scikit-learn`**: For calculating cosine similarity and for keyword extraction via `TfidfVectorizer`.
 -   **`numpy`**: For numerical operations.
 
-## How to Build and Run the Solution
 
-### Build the Docker Image
 
-Navigate to the project root directory and run the following command:
+## 🛠️ Execution Instructions
+
+The solution is containerized with Docker for seamless execution as per the hackathon requirements.
+
+### 1. Build the Docker Image and run 
+
+From the project’s root directory, run:
 
 ```bash
-docker build -t my-1b-solution .
+docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
+docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" --network none mysolutionname:somerandomidentifier
